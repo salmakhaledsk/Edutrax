@@ -1,0 +1,7 @@
+.container-fluid{
+margin: auto !important;
+}
+.about{
+  width: 100% !important;
+  height: 100vh !important;
+}

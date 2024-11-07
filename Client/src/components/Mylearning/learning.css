@@ -1,0 +1,91 @@
+.mylearning-header {
+  background-image: url("../../Assets/bgg.png");
+  background-size: cover;
+  background-position: center;
+  height: 260px;
+  margin-top: 65px !important;
+  text-align: center;
+  padding-top: 80px !important;
+  width: 100%;
+}
+.header-mylearning {
+  color: white !important;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px !important;
+  margin-top: -30px;
+}
+.checked {
+  color: orange;
+}
+.unchecked {
+  color: aliceblue;
+}
+.mylearning-card:hover {
+  transform: scale(1.02);
+}
+
+.mylearning-cards {
+  margin-top: 20px !important;
+  display: flex;
+  margin-left: 140px !important;
+  align-items: center;
+}
+.start-lesson-btn {
+  background-color: var(--secondColor) !important;
+  border: none !important;
+}
+.start-lesson-btn:hover{
+    opacity: 0.9;
+    letter-spacing: 1.3px;
+}
+
+.mylearning-bar{
+    height: 6px !important;
+}
+
+.learningContainer .searchDiv {
+  width: 40%;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.learningContainer .searchDiv input,
+.learningContainer .searchDiv button {
+  border-radius: 25px !important;
+  outline: 0;
+  border: 0;
+}
+
+.learningContainer .searchDiv input {
+  width: 75%;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.learningContainer .searchDiv button {
+  width: 22%;
+  height: 50px;
+  background-color: var(--firstColor);
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1.2px;
+  transition: .5s all ease;
+}
+
+.learningContainer .searchDiv button:hover {
+  background-color: var(--secondColor) !important;
+  letter-spacing: 0px !important;
+}
+
+.learningNOCourses{
+  text-align: center; 
+  margin-left: -100px !important;
+  margin-top: 120px !important;
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--firstColor);
+}
